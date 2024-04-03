@@ -1,0 +1,156 @@
+
+
+::-webkit-scrollbar{
+  height: .1rem;
+  width: .5rem;
+}
+
+::-webkit-scrollbar-track{
+  background-color: #67ccff;
+}
+
+::-webkit-slider-thumb{
+  background-color: #194eb9;
+  border-radius: 5rem;
+}
+
+section{
+  min-height: 100vh;
+  background-color: #1d002c;
+}
+
+.parallax_home{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.parallax_home img{
+  position: absolute;
+  object-fit: cover;
+  pointer-events: none;
+}
+
+
+.parallax_home h1{
+  position: absolute;
+  top:92dvh;
+  z-index: 1000;
+  font-size: 1.5rem;
+  left:45dvw;
+  right:45dvw;
+  background-color:#1d002c ;
+  border: 2px solid #fff;
+  box-shadow: 0 0 2rem #fff;
+  color:#fff;
+  text-align: center;
+  border-radius: 25px;
+  /* text-shadow: 0 10px 4px rgba(0, 0, 0, 0.85); */
+}
+
+.parallax_home h1:hover{
+  background-color: #12f7ff;
+  color:#1d002c;
+  box-shadow: 0 0 2rem #12f7ff;
+  border: 2px solid #12f7ff;
+
+}
+
+.parallax_home img#moon{
+  mix-blend-mode: screen;
+
+}
+
+
+
+
+
+.about_section{
+  position: relative;
+}
+
+.about_section img{
+  position: absolute;
+  z-index: 1000;
+  object-fit: cover;
+  pointer-events: none;
+}
+
+.about_section img.about-waterfall{
+  position: absolute;
+  top:-95px;
+}
+
+.about_section .info-box{
+  position: absolute;
+  top:0%;
+  left:4rem;
+  width:50%;
+  z-index:1003;
+  background: #1d002c;
+
+}
+
+.about_section .info-box h2{
+  font-size: 2.5rem ;
+}
+
+.about_section .info-box p{
+  font-size: 1.175rem ;
+  margin-top: .5rem;
+  margin-bottom: 1.5rem;
+}
+
+.about_section .info-box a{
+  background: #12f7ff;
+  font-weight: bold;
+  color:#1d002c;
+  text-decoration: none;
+  border-radius: 25px;
+  box-shadow: 0 0 .25rem #12f7ff;
+  padding:5px 10px;
+  transition: all .3s ease;
+  border: 2px solid #12f7ff;
+}
+
+.about_section .info-box a:hover{
+  background: #1d002c;
+  box-shadow: 0 0 1rem #12f7ff;
+  color:#fff;
+}
+
+#back-top{
+  position: fixed;
+  z-index: 1000;
+  right:2rem;
+  background-color: #fff;
+  bottom:2rem;
+  right:2rem;
+  width:50px;
+  height: 50px;
+  display:none;
+  place-items: center;
+  border-radius: 50%;
+  color:#1d002c;
+  cursor: pointer;
+  font-size: 3rem;
+  justify-content: center;
+  align-items: center;
+  border:3px solid #12f7ff;
+  box-shadow: 0 0 .5rem #12f7ff;
+
+}
+
+.progress-value{
+  display: grid;
+  height:calc(100%-12px);
+  height:calc(100%-12px);
+  place-items:center;
+  font-size: 30px;
+}
+
+#about_moon{
+  mix-blend-mode: screen;
+
+}
