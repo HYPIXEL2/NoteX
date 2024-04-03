@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&family=Instrument+Sans&family=Josefin+Sans:wght@500&family=Kdam+Thmor+Pro&family=Libre+Franklin:wght@500&family=Lily+Script+One&family=Mulish:wght@500&family=Nunito+Sans&family=Poppins&family=Roboto+Slab:wght@500&family=Rubik&family=Signika+Negative:wght@500&family=Tilt+Prism&display=swap"); 
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik+Scribble&display=swap');
+
+*{
+  padding:0;
+  margin:0;
+  border:0;
+  border-radius:0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body{
+  color:#fff;
+  background-color:#121137;
+  font-family: 'Poppins', sans-serif;
+  overflow-x: hidden;
+}
+
+header{
+  position: absolute;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: space-between;
+  /* background-color: #2b2a33; */
+  width: 100%;
+  z-index:1001;
+  /* border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px; */
+}
+
+#name_logo{
+  margin-left:2rem;
+  margin-top:1.5rem;
+  width: 200px;
+}
+
+ul.nav_list{
+  margin-top: 2.35rem;
+  margin-right: 2rem;
+  list-style: none;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav_list li{
+  margin-left:1rem;
+}
+
+.nav_anchor{
+  text-decoration:none;
+  color:#fff;
+  font-size: 1.125rem;
+  padding:5px 12px;
+  font-weight: bold;
+  border:2px solid #12f7ff;
+  border-radius: 50px;
+  transition: all .3s ease;
+}
+
+.nav_anchor:hover,
+.nav_anchor#active{
+  box-shadow: 0 0 1rem #12f7ff;
+  background-color: #12f7ff;
+  color:#1d002c;
+}
